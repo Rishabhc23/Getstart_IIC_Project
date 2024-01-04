@@ -11,5 +11,5 @@
 8. See Other Profiles
 9. Add a Profile Picture
 10. Add Post Images
-11. Search For Other Users
+11. Search For Other Users.
 
