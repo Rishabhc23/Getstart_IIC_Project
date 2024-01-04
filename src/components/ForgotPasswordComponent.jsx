@@ -20,12 +20,13 @@ export default function ForgotPasswordComponent() {
     <div className="login-wrapper">
       <img src={GetstartLogo} className="getstartLogo" />
       <div className="App">
-        <h1>Forgot Password</h1>
+        <h1>Forgot Password ?</h1>
         <form onSubmit={(e)=>handleSubmit(e)}>
-          <input name="email" /><br/>
-          <button>Reset</button>
+          <input name="email" placeholder="Enter your Email" className="email-input" /><br/>
+          <button className="reset-button">Reset</button>
         </form>
       </div>
     </div>
   );
 }
+
